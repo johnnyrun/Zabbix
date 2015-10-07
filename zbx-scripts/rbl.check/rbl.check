@@ -118,7 +118,6 @@ c.add_dnsbl("CDL_ANTISPAM_ORG_CN","cdl.anti-spam.org.cn",'ip',{"0"=>"OK","127.0.
 c.add_dnsbl("SURRIEL","psbl.surriel.com",'ip',{"0"=>"OK","127.0.0.2"=>"Blacklisted"})
 c.add_dnsbl("SPAMLAB","rbl.spamlab.com",'ip',{"0"=>"OK","127.0.0.2"=>"Blacklisted"})
 c.add_dnsbl("BOGONS_CYMRU","bogons.cymru.com",'ip',{"0"=>"OK","127.0.0.2"=>"Blacklisted"})
-c.add_dnsbl("RFC-IGNORANT","dsn.bl.rfc-ignorant.de",'ip',{"0"=>"OK","127.0.0.2"=>"Blacklisted"})
 
 # Create @RBLs list
 @rbls = c.dnsbls
